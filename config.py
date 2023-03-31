@@ -13,19 +13,19 @@ BOT_TOKEN = getenv("BOT_TOKEN","")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001982931017"))
 
 GBAN_LOG_ID = int(getenv("GBAN_LOG", ""))
 
-BOT_NAME = getenv("BOT_NAME", "[🇮🇳] Oᴘ✗Vɪʀ 🍂")
+BOT_NAME = getenv("BOT_NAME", "Red Wine")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "2116857965").split())
+    map(int, getenv("OWNER_ID", "1711510822").split())
 )
     
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamInsane")
+    "SUPPORT_CHANNEL", "https://t.me/Kalakar_Sangram")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Shayri_Music_Lovers")
+    "SUPPORT_GROUP", "https://t.me/Red_Wine_Music")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "900000")
@@ -40,13 +40,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/VIR99/iTzViR-MuSiC",
+    "https://github.com/OpQueenbots/Sangram",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "54000")
