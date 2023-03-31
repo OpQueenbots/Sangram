@@ -13,7 +13,7 @@ BOT_TOKEN = getenv("BOT_TOKEN","")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001982931017"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001982931017"))
 
 GBAN_LOG_ID = int(getenv("GBAN_LOG", "-1001183845117"))
 
