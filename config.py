@@ -11,11 +11,11 @@ API_ID = int(getenv("API_ID",""))
 API_HASH = getenv("API_HASH","")
 BOT_TOKEN = getenv("BOT_TOKEN","")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "-1001183845117")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001982931017"))
 
-GBAN_LOG_ID = int(getenv("GBAN_LOG", ""))
+GBAN_LOG_ID = int(getenv("GBAN_LOG", "-1001183845117"))
 
 BOT_NAME = getenv("BOT_NAME", "Red Wine")
 OWNER_ID = list(
